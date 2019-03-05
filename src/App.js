@@ -3,7 +3,7 @@ import "./App.css";
 import "../public/static/css/bootstrap.css";
 import { Caesar } from "./Caesar";
 import { Vigenere } from "./Vigenere";
-import { RSA } from "./RSA";
+import { Atbash } from "./Atbash";
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
 
           <Vigenere /> */}
 
-          <RSA />
+          <Atbash />
         </div>
       </div>
     );
